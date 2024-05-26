@@ -1,6 +1,8 @@
 from flask import Flask, request
 
 app = Flask("somthing")
+print("moshe")
+print("bla bla")
 print("Hi")
 
 @app.route('/whatismyname', methods=['GET', 'POST', 'DELETE'])
